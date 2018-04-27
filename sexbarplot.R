@@ -15,3 +15,5 @@ a3 <- a2 %>% mutate(group=substr(key,1,1),year=substr(key,2,3))
 a3
 ggplot(a3,aes(x=year, y=value, fill = group)) + geom_bar(stat='identity', position = 'dodge')
 
+
+#testing testing
