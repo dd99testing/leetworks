@@ -16,4 +16,7 @@ a3
 ggplot(a3,aes(x=year, y=value, fill = group)) + geom_bar(stat='identity', position = 'dodge')
 
 
-#testing testing
+#testing testing #testing
+
+#왜 안되는거야 시발
+
